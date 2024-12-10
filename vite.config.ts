@@ -38,10 +38,10 @@ export default defineConfig({
               "form_factor": "narrow"
             }
           ],
-          "start_url": "/",
           "display": "standalone",
           "background_color": "#ffffff",
           },
     }),
   ],
+  base: '/expense-tracker-ui/',
 });
