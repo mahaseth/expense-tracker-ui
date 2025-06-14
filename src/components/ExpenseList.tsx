@@ -10,7 +10,7 @@ export const ExpenseList = ({ expenses }: { expenses: Expense[] }) => (
         <span>
           {exp.description} ({exp.category})
         </span>
-        <span className="text-blue-600">${exp.amount.toFixed(2)}</span>
+        <span className="text-blue-600">Rs {exp.amount.toFixed(2)}</span>
       </div>
     ))}
   </div>
