@@ -1,0 +1,34 @@
+{
+  "name": "Store Seller App Development",
+  "lists": [
+    { "name": "Backlog" },
+    { "name": "To Do" },
+    { "name": "In Progress" },
+    { "name": "Code Review" },
+    { "name": "Done" }
+  ],
+  "cards": [
+    { "name": "Set up GitHub Repository & CI/CD", "list": "To Do" },
+    { "name": "Initialize Backend (Spring Boot)", "list": "To Do" },
+    { "name": "Initialize Frontend (React Native)", "list": "To Do" },
+    { "name": "Define API Contracts & Database Schema", "list": "To Do" },
+    { "name": "Implement JWT Authentication (Login & Register)", "list": "To Do" },
+    { "name": "Secure APIs with Role-based access", "list": "To Do" },
+    { "name": "Implement Logout & Token Expiry", "list": "To Do" },
+    { "name": "Create Store & Seller Profile APIs", "list": "To Do" },
+    { "name": "Implement Seller Dashboard UI", "list": "To Do" },
+    { "name": "Implement Add/Edit/Delete Product APIs", "list": "To Do" },
+    { "name": "Fetch products for store & public listing", "list": "To Do" },
+    { "name": "Implement product image upload (AWS S3)", "list": "To Do" },
+    { "name": "Display public product listing", "list": "To Do" },
+    { "name": "Implement product search & filtering", "list": "To Do" },
+    { "name": "Implement deep linking for product sharing", "list": "To Do" },
+    { "name": "Implement Order Placement API", "list": "To Do" },
+    { "name": "Enable Seller Order Management", "list": "To Do" },
+    { "name": "Implement Payment Gateway (Stripe/Razorpay)", "list": "To Do" },
+    { "name": "Fetch order history for customers", "list": "To Do" },
+    { "name": "Implement Firebase Push Notifications", "list": "To Do" },
+    { "name": "Deploy Backend (AWS/GCP)", "list": "To Do" },
+    { "name": "Deploy React Native App to Play Store/App Store", "list": "To Do" }
+  ]
+}
