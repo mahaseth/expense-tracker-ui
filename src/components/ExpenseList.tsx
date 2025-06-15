@@ -8,7 +8,8 @@ export const ExpenseList = ({ expenses }: { expenses: Expense[] }) => (
         className="flex justify-between p-2 bg-slate-100 rounded"
       >
         <span>
-          {exp.description} ({exp.category})
+          {exp.description} ({exp.category}) (
+          {exp.date ? new Date(exp.date).toLocaleDateString() : ""})
         </span>
         <span className="text-blue-600">Rs {exp.amount.toFixed(2)}</span>
       </div>
